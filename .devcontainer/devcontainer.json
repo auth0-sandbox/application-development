@@ -3,5 +3,5 @@
     "build": {
         "dockerfile": "Dockerfile",
     },
-    "postAttachCommand": "rm -f README.md; cp -f Codespace.md README.md; echo `pwd`; read -n 1"
+    "postAttachCommand": "rm -f README.md; cp -f Codespace.md README.md"
 }
