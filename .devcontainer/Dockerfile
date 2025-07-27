@@ -7,12 +7,12 @@
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:dev-24-bookworm
 
 ENV DEBIAN_FRONTEND=noninteractive
-RUN sudo apt update && sudo apt-get install -y --no-install-recommends mkcert
+# RUN sudo apt update && sudo apt-get install -y --no-install-recommends mkcert
 
 # This installs the GitHub CLI (gh) for use in GitHub Codespaces.
-RUN curl -L -o /tmp/gh-amd.deb https://github.com/cli/cli/releases/download/v2.53.0/gh_2.53.0_linux_amd64.deb
-RUN curl -L -o /tmp/gh-arm.deb https://github.com/cli/cli/releases/download/v2.53.0/gh_2.53.0_linux_arm64.deb
-RUN apt-get install -y ./$(uname -m | grep -q '^aarch64\|^arm' && echo /tmp/gh-arm.deb || echo /tmp/gh-amd.deb)
+# RUN curl -L -o /tmp/gh-amd.deb https://github.com/cli/cli/releases/download/v2.53.0/gh_2.53.0_linux_amd64.deb
+# RUN curl -L -o /tmp/gh-arm.deb https://github.com/cli/cli/releases/download/v2.53.0/gh_2.53.0_linux_arm64.deb
+# RUN apt-get install -y ./$(uname -m | grep -q '^aarch64\|^arm' && echo /tmp/gh-arm.deb || echo /tmp/gh-amd.deb)
 
 # [Optional] Uncomment if you want to install an additional version of node using nvm
 # ARG EXTRA_NODE_VERSION=10
