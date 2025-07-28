@@ -25,12 +25,12 @@ Complete and verify these two sections to proceed with the coursework:
 
 # Lab Repository Directory
 
-* [Lab 1 - Application Integration with the Auth0 SDK](https://github.com/auth0-sandbox/lab-web-application)
+* [Lab 1 - Application Integration with the Auth0 SDK](https://github.com/auth0-sandbox/lab-app-integration)
 * [Lab 2 - Implement Deferred Login](https://github.com/auth0-sandbox/lab-deferred-login)
 * [Lab 3 - API Access Management](https://github.com/auth0-sandbox/lab-api-access-management)
 * [Lab 4 - Accessing the Management API](https://github.com/auth0-sandbox/lab-management-api) <!-- Introduce "API Shielding"; leave the API in place -->
 <!-- * [Lab 5 - Handle Multiple APIs](https://github.com/auth0-sandbox/lab-multiple-apis) <!-- Switch to openid-client to manage multiple tokens -->
-<!-- * [Lab 6 - Secure ID and Access Tokens](https://github.com/auth0-sandbox/lab-securing-tokens) <!-- openid-client will support Private Key JWT -->
+<!-- * [Lab 6 - Secure ID and Access Tokens](https://github.com/auth0-sandbox/lab-secure-tokens) <!-- openid-client will support Private Key JWT -->
 <!-- * [Lab 7 - Proof Key for Code Exchange](https://github.com/auth0-sandbox/spa-pkce) -->
 <!-- * [Lab 8 - Implement Backend for Frontend](https://github.com/auth0-sandbox/backend-for-frontend) -->
 <!-- * [Lab 9 - Customize Universal Login](https://github.com/auth0-sandbox/lab-login-templates) -->
